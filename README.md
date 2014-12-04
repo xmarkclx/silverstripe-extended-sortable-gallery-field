@@ -16,10 +16,10 @@ I found out image sorting does not work of the last version and made fixes but t
 FEATURES
 ========
 
-Image subclasses sorting support
-bulk upload images
-add images from files previously uploaded
-drag and drop ordering of images
+* Image subclasses sorting support
+* bulk upload images
+* add images from files previously uploaded
+* drag and drop ordering of images
 
 
 SAMPLE USAGE
