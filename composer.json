@@ -19,5 +19,7 @@
 	"require": {
 	    "silverstripe/cms": "3.1.*"
 	}
-	
+	"conflict": {
+	    "jonshutt/silverstripe-sortable-gallery-field": "*"
+    	},
 }
