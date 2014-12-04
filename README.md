@@ -25,11 +25,11 @@ drag and drop ordering of images
 SAMPLE USAGE
 ============
 <code>
-<?php
 class GalleryPage extends Page {
 	static $has_many = array(  	 	
 		'Images' => 'CustomImage'  
 	);
+	
 	function getCMSFields() {
 		$fields = parent::getCMSFields();
 		
