@@ -1,4 +1,4 @@
-SilverStripe-SortableGalleryField
+SilverStripe Extended SortableGalleryField
 =================================
 Based off http://addons.silverstripe.org/add-ons/jonshutt/silverstripe-sortable-gallery-field.
 
