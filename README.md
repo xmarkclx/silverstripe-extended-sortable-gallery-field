@@ -24,7 +24,7 @@ drag and drop ordering of images
 
 SAMPLE USAGE
 ============
-<code>
+<pre>
 class GalleryPage extends Page {
 	static $has_many = array(  	 	
 		'Images' => 'CustomImage'  
@@ -44,4 +44,4 @@ class GalleryPage extends Page {
 		return $fields;
 	}
 }
-</code>
+</pre>
