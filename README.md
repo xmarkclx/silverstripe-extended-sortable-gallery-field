@@ -27,18 +27,16 @@ SAMPLE USAGE
 <code>
 <?php
 class GalleryPage extends Page {
-	
 	static $has_many = array(  	 	
-		'Images' => 'Image'  
+		'Images' => 'CustomImage'  
 	);
-	
 	function getCMSFields() {
 		$fields = parent::getCMSFields();
 		
 		$galleryField = new SortableGalleryField(
 	            $name = 'Images',
-	            $pageClassName = 'WeddingAlbum',
-	            $className = 'WeddingAlbumImage',
+	            $pageClassName = 'GalleryPage',
+	            $className = 'CustomImage',
 	            $title = 'Upload one or more images'
 	        );
 		$fields->addFieldToTab('Root.Images', $galleryField);
