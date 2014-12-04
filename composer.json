@@ -17,7 +17,7 @@
 		}
 	],
 	"require": {
-	    "silverstripe/cms": "~3.0"
+	    "silverstripe/cms": "3.1.*"
 	}
 	
 }
