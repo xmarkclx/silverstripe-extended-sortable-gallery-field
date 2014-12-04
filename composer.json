@@ -1,13 +1,18 @@
 {
-	"name": "jonshutt/silverstripe-sortable-gallery-field",
+	"name": "xmarkclx/silverstripe-extended-sortable-gallery-field",
 	"type": "silverstripe-module",
-	"description": "Easily upload multiple images, and drag and drop the order",	
+	"description": "Easily upload multiple images, and drag and drop the order with support for subclasses of Image.",	
 	"keywords": ["gallery", "bulk-upload", "upload", "sortable", "orderable"],
 	"license": "BSD-3-Clause",
 	"authors":[
 		{
 			"name": "Jon Shutt",
 			"email" : "sales@futureweb.co.nz",
+			"role" : "developer"
+		},
+		{
+			"name": "Mark Christian D. Lopez",
+			"email" : "xmarkclx@gmail.com",
 			"role" : "developer"
 		}
 	],
