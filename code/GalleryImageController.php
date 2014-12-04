@@ -26,11 +26,9 @@ class GalleryImageController extends Controller {
         //$Images = DataObject::get($ClassName, '"ParentID" = '.$pageID);
         //$Images = DataObject::get($ClassName, '"'.$ParentClassName.'ID" = '.$pageID, 'SortOrder ASC');
         //$Images = DataObject::get($ClassName, '"ParentID" = '.$pageID, 'SortOrder ASC');
-        Debug::show("$ParentClassName::get_by_id($ParentClassName, $pageID)->$Name()");
         $Images = $ParentClassName::get_by_id($ParentClassName, $pageID)->$Name();
         /** @var ArrayList $Images */
         $Images->sort('SortOrder ASC');
-        Debug::show($Images);
         //$Images = DataObject::get_by_id('Page',$pageID)->$ClassName();
 
         $loop = 0;
