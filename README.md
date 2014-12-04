@@ -8,7 +8,7 @@ The main difference is that this one allows sorting of subclasses of Image.
 
 I.e
 
-MyImageClass extends Image.
+<code>MyImageClass extends Image.</code>
 
 I found out image sorting does not work of the last version and made fixes but the fixes completely changed how it was done on the backend. I added this into Packagist since I needed the functionality on multiple projects.
 
