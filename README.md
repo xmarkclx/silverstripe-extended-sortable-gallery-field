@@ -24,6 +24,7 @@ drag and drop ordering of images
 
 SAMPLE USAGE
 ============
+<code>
 <?php
 class GalleryPage extends Page {
 	
@@ -45,3 +46,4 @@ class GalleryPage extends Page {
 		return $fields;
 	}
 }
+</code>
