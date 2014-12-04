@@ -10,8 +10,7 @@ I.e
 
 <code>MyImageClass extends Image.</code>
 
-I found out image sorting does not work of the last version and made fixes but the fixes completely changed how it was done on the backend. I added this into Packagist since I needed the functionality on multiple projects.
-
+I found out image sorting does not work properly of the this is based off as of writing and made fixes but the fixes completely changed how it is done on the backend or the interface, thus it might break code that interfaces with John's code.
 
 FEATURES
 ========
