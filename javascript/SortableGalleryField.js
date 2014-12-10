@@ -19,7 +19,7 @@
                             self.css("overflow", "auto");
                         },
                         update: function(event, ui){
-
+                            readySortableGalleryField();
                             formID = $("#Form_EditForm_ID").val();
                             url = 'GalleryImageController/Sort/';
                             $.get(url, {

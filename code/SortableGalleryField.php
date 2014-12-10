@@ -14,12 +14,11 @@ class SortableGalleryField extends UploadField
         parent::__construct($name, $title, $items);
     }
 
-	public function Field($properties = array()) {
-		//Requirements::javascript(THIRDPARTY_DIR . '/jquery-ui/jquery-ui.js');
-		Requirements::javascript(SORTABLEGALLERY_DIR . '/javascript/SortableGalleryField.js');
-        Requirements::customScript("window.imageClassName = '{$this->imageClassName}'; window.parentClassName='{$this->pageClassName}'; window.relationName='{$this->relationName}'");
-		Requirements::css(SORTABLEGALLERY_DIR . '/css/SortableUploadField.css');
-		return parent::Field($properties);
-	}
-	
+    public function Field($properties = array()) {
+        //Requirements::javascript(THIRDPARTY_DIR . '/jquery-ui/jquery-ui.js');
+        Requirements::javascript(SORTABLEGALLERY_DIR . '/javascript/SortableGalleryField.js');
+        Requirements::customScript("function readySortableGalleryField(){window.imageClassName = '{$this->imageClassName}'; window.parentClassName='{$this->pageClassName}'; window.relationName='{$this->relationName}';}");
+        Requirements::css(SORTABLEGALLERY_DIR . '/css/SortableUploadField.css');
+        return parent::Field($properties);
+    }   
 }

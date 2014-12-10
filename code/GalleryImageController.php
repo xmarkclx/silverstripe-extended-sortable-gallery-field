@@ -36,9 +36,9 @@ class GalleryImageController extends Controller {
         //echo 'x<br>';
         foreach($Images as $Image){
             /** @var Image $Image */
-//            echo 'Old:<br>';
-//            echo $Image->ID."<br>";
-//            echo $Image->SortOrder."<br>";
+            echo 'Old:<br>';
+            echo $Image->ID."<br>";
+            echo $Image->SortOrder."<br>";
 
             if ($loop == $newPosition) { $newSortOrder++; }
             $Image->SortOrder = $newSortOrder;
@@ -46,8 +46,8 @@ class GalleryImageController extends Controller {
 
             $Image->write();
 
-//            echo 'New: '.$Image->SortOrder."<br><br>";
-//            echo $Image->Title;
+            echo 'New: '.$Image->SortOrder."<br><br>";
+            echo $Image->Title;
 
             $loop++;
             $newSortOrder++;
